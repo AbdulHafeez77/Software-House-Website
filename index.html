@@ -2,252 +2,277 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFT Marketplace - Buy, Sell & collect NFTs | XFL (NFT) </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link class="logo-icon" rel="shortcut icon" type="image/x-icon" href="Website-Images-Material/MSZ_Software_House_Logo.png">
+    <title>MSZ Software House</title>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
-<body><!-- "Xtreme Football League #20b2aa -->
-    <div class="background"> 
-       <div class="container">
-        <nav class="navbar navbar-expand-lg">
-           <br> <br> <br> <br>
-           <div class="container-fluid">
-              <img class="navbar-brand" alt="." width="130" height="70" src="images/images.png"> 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active navbar-brand" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active navbar-brand" aria-current="page" href="#">Explore</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-brand" href="#">Pages</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-brand" href="#">Collections</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-brand" href="#">Rewards</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="nav-search" class="form-control" type="search" placeholder=" Search" aria-label="Search">
-                  <button type="button" class="btn search-btn">Wallet Collect</button>
-                </form>
-              </div>
-            </div>
-        </nav>
-        <div class="row">
-          <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <p class="intro">Buy and Sell Digital Art NFT's, Get Rewards </p>
-            <p class="offer">XFL is the web3 NFT Marketplace where traders and collectors have earned in rewards.
-             Everything you need to build, host, scale amazing dapps free by creating account today.</p>  
-            <div class="button_started">
-              <a href="#">Let's Get Started  
-                <span><i class="fa fa-arrow-right"></i></span> 
-              </a>
-            </div>
-          </div>  
+<body>
+    <div class="container-xl">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navigation">
+        <div class="container-fluid">
+          <div class="logo animate__animated animate__bounceInDown">
+            <img width="55" class="navbar-brand" src="Website-Images-Material/MSZ_Software_House_Logo.png" alt="MSZ Software House (LOGO)" srcset=""> 
+            <span class="active title"> MSZ </span>  
+          </div>
+          <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon nav-btn-lines"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 animate__animated animate__bounceInDown">
+              <li class="nav-item list">
+                <a class="nav-link active items" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item list">
+                <a class="nav-link active items" aria-current="page" href="services.html">Services</a>
+              </li>
+              <li class="nav-item list">
+                <a class="nav-link active items" aria-current="page" href="carrer.html">Carrer</a>
+              </li>
+              <li class="nav-item list">
+                <a class="nav-link active items" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search animate__animated animate__bounceInDown">
+              <input class="form-control me-2" type="search" placeholder=" Search" aria-label="Search">
+              <button class="btn searchBtn" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="row">
-          <!-- <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6"> -->
-                    
-          <!-- </div> -->
-        </div>      
-        <div class="top-seller mt-5"><p> Top Collections <i class="fa-solid fa-gem"></i> </p></div><br>
-        <div class="dragger">
-          <div class="wrapper">
-              <i id="first-child" class="fa-solid fa-angle-left"></i>
-              <div class="carousel">
-                <img src="images/collectibles.png" alt="img" draggable="false" >
-                <img src="images/photography.png" alt="img" draggable="false">
-                <img src="images/music.jpeg" alt="img" draggable="false">
-                <img src="images/art5.jpg" alt="img" draggable="false">
-                <img src="images/videos.png" alt="img" draggable="false">
-                <img src="images/art.png" alt="img" draggable="false">
-                <img src="images/cards.jpeg" alt="img" draggable="false">
-                <img src="images/domains.png" alt="img" draggable="false">
-                <img src="images/virtual world.png" alt="img" draggable="false">
-              </div>
-              <i id="last-child" class="fa-solid fa-angle-right"></i>
+    </nav>
+    </div>
+    <div class="main container-xxl">
+      <div class="intro-container animate__animated animate__bounceInUp">
+        <div class="row introduction">
+          <p class="title-paragraph"> MSZ </p>
+          <p class="field-paragraph"> SOFTWARE HOUSE </p>
+          <p class="sub-heading">Elevating Digital Experiences through Custom Solutions and Exceptional Support.</p>
+          <p class="description">
+            MSZ Software House the finest technology, your destination for web development, design, content writing, video editing, & 
+            subscription assistance. Committed to customer satisfaction, privacy, & affordable quality, we're on a mission to lead 
+            Pakistan's software industry.
+          </p>
+          <button type="submit" class="start-btn"> Let's Connect </button>
+        </div>
+      </div> 
+    </div>
+    <div class="services-container container-xxl">
+      <div class="services-heading pt-4 mb-3">
+        <p class="heading mt-4"> What We Do! </p>
+        <div class="underline"> </div>
+        <p class="sub-heading mt-2"> Our services are defined by quality and commitment. </p>
+      </div>
+      <div class="row pt-3 justify-content-center">
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp">
+          <div class="card services-box web-dev mt-2">
+            <div class="card-body services-box-text">
+              <div class=" mt-2"><i class="fa-2x fa-solid fa-laptop-code" style="color: #ffffff;"></i></div>
+              <p class="services-box-title mt-2"> Web Development </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>   
           </div>
-        </div> 
-        <div class="top-seller mt-5"> Top Seller 
-          <i class="fa-solid fa-bolt" class="diamond"></i>
-        </div><br>
-        <div class="row flex-center">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-            <div class="card body">
-              <div class="card-body">
-                <div class="img-circle">
-                  <img alt=".." class="radius" width="120" src="images/one_1.webp" />
-                </div>
-                <p class="card-title center mt-2"> Robert Evans</p>
-                <div class="add-share">
-                  <i class="white fa-solid fa-plus center"></i>
-                  <i class="white fa-solid fa-share-nodes"></i>
-                </div>
-                <p class="card-subtitle mt-2 mb-2 rank">885.5 <a>Eth</a></p>
-              </div>
-            </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp ui-ux">
+          <div class="card services-box mt-2">
+            <div class="card-body services-box-text">
+              <div><img width="36" src="Website-Images-Material/ui.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-title mt-3"> UI/UX Design </p>
+              <p class="services-box-description"> We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>   
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-            <div class="card body">
-              <div class="card-body">
-                <div class="img-circle">
-                  <img alt="." class="radius" width="120" src="images/two.png">
-                </div>
-                <p class="card-title center mt-2"> Olivia Holland</p>
-                <div class="add-share">
-                  <i class="white fa-solid fa-plus center"></i>
-                  <i class="white fa-solid fa-share-nodes"></i>
-                </div>
-                <p class="card-subtitle mt-2 mb-2 rank">884.9 <a>Eth</a></p>
-              </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp content-write">
+          <div class="card services-box mt-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img width="36" src="Website-Images-Material/copy-writing.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-title mt-2"> Content Writing </p>
+              <p class="services-box-description mb-2">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
             </div>  
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-            <div class="card body">
-              <div class="card-body">
-                <div class="img-circle"><img alt="." class="radius" width="120" src="images/three_1.webp"></div>
-                <p class="card-title center mt-2"> Dave Johnson</p>
-                <div class="add-share">
-                  <i class="white fa-solid fa-plus center"></i>
-                  <i class="white fa-solid fa-share-nodes"></i>
-                </div>
-                <p class="card-subtitle mt-2 mb-2 rank">883.5 <a>Eth</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-            <div class="card body mb-2">
-              <div class="card-body">
-                <div class="img-circle">
-                  <img alt="." class="radius" width="120" src="images/four_1.webp">
-                </div>
-                <p class="card-title center mt-2">Sophia Malik</p>
-                <div class="add-share">
-                  <i class="white fa-solid fa-plus center"></i>
-                  <i class="white fa-solid fa-share-nodes"></i>
-                </div>
-                <p class="card-subtitle mt-2 mb-2 rank">883.1 <a>Eth</a></p>
-              </div>
-            </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp video-edit">
+          <div class="card services-box mt-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img width="36" src="Website-Images-Material/video-editing.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-title mt-2"> Video Editing </p>
+              <p class="services-box-description mb-2">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>  
           </div>
         </div>
-        
-        <p class="top-seller mt-5 mb-4"> Top Trending Collections </p>
-
-          <div class="row justify-content-center">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-              <div class="card body2">
-                <div class="card-body ">
-                  <div class="my-flex">
-                    <p><img alt="." class="radius" width="40" src="images/profile-1.jpeg"> By <a class="a">Emma</a></p>
-                    <p class="dots">...</p>
-                  </div>
-                  <div class="img-square mb-3"><img  alt="." width="205" src="images/p1.jpg"></div>
-                  <div class="my-flex">
-                   <p class="card-title title">The girl firefly</p>
-                   <p class="card-title a">4.8 ETh</p>
-                  </div><hr> 
-                  <div class="my-flex">
-                  <p class="card-subtitle mb-2 rank bid">PLACE A BID</p>
-                  <p class="card-title number">
-                    <i class="fa-solid fa-heart" class="likes"></i> 97 
-                  </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-              <div class="card body2">
-                <div class="card-body">
-                  <div class="my-flex">
-                    <p><img alt="." class="radius" width="40" src="images/profile-2.jpg"> By <a class="a">Luna</a></p>
-                    <p class="dots">...</p>
-                  </div>
-                  <div class="img-square mb-3"><img alt="." width="205" src="images/p2.jpg"></div>
-                  <div class="my-flex">
-                   <p class="card-title title">Portrait Artwork</p>
-                   <p class="card-title a">4.8 ETh</p>
-                  </div><hr> 
-                  <div class="my-flex">
-                    <p class="card-subtitle mb-2 rank bid">PLACE A BID</p>
-                    <p class="card-title number">
-                      <i class="fa-solid fa-heart" class="likes"></i> 95 
-                    </p>
-                  </div>
-                </div>
-              </div>  
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-              <div class="card body2">
-                <div class="card-body">
-                  <div class="my-flex">
-                    <p><img alt="." class="radius" width="40" src="images/profile-3.jpg"> By <a class="a">Jake</a></p>
-                    <p class="dots">...</p>
-                  </div>
-                  <div class="img-square mb-3"><img width="205" alt="." src="images/art2.jpg"></div>
-                  <div class="my-flex">
-                  <p class="card-title title">Halloween Scarecrow</p>
-                  <p class="card-title a">4.8 ETh </p>
-                  </div><hr>
-                  <div class="my-flex">
-                  <p class="card-subtitle mb-2 rank bid">PLACE A BID</p>
-                  <p class="card-title number">
-                    <i class="fa-solid fa-heart" class="likes"></i> 82 
-                  </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mt-3">
-              <div class="card body2 mb-2">
-                <div class="card-body">
-                  <div class="my-flex">
-                    <p><img alt="." class="radius" width="40" src="images/profile-4.jpg"> By <a class="a">Julia</a></p>
-                    <p class="dots">...</p>
-                  </div>
-                  <div class="img-square mb-3"><img alt=".." width="205" src="images/w.gif"></div>
-                  <div class="my-flex">
-                   <p class="card-title  title">Walking girl</p>
-                   <p class="card-title a">4.8 ETh</p>
-                  </div><hr>         
-                  <div class="my-flex">
-                    <p class="card-subtitle mb-2 rank bid">PLACE A BID</p>
-                    <p class="card-title number">
-                      <i class="fa-solid fa-heart" class="likes"></i> 78 
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp seo">
+          <div class="card services-box mt-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img width="36" src="Website-Images-Material/seo.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-title mt-2"> SEO Services </p>
+              <p class="services-box-description mb-2">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>  
           </div>
-
-      
-
-
-                
-        
-
-
-
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp media">
+          <div class="card services-box">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img width="36" src="Website-Images-Material/social-media.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-title mt-2"> Social Media Management </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>   
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp app-dev">
+          <div class="card services-box mt-2 mb-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img class="contact-img" width="36" src="Website-Images-Material/mobile-icon.png" alt="mobile-icon" /></div>
+              <p class="services-box-title mt-1"> Mobile App Development </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage and convert.</p>
+            </div>   
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp e-commerce">
+          <div class="card services-box mt-2 mb-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><i class="fa-2x fa-solid fa-cart-plus" style="color: #ffffff;"></i></div>
+              <p class="services-box-title mt-2">  E-commerce Solutions </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage and convert.</p>
+            </div>   
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp testing">
+          <div class="card services-box mt-2 mb-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2" ><i class="fa-2x fa-solid fa-screwdriver-wrench" style="color: #f1f2f4;"></i></div>
+              <p class="services-box-title mt-2"> Software Testing </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>   
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp it">
+          <div class="card services-box mt-2 mb-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img width="36" src="Website-Images-Material/it-consultant.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-title mt-2"> IT Consulting </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We cre ate stunning websites that connect, engage, and convert.</p>
+            </div>   
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp vr-ar">
+          <div class="card services-box mt-2 mb-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><img width="36" src="Website-Images-Material/ar-vr.png" alt="ui-ux-icon" srcset=""></div>
+              <p class="services-box-lg-title mt-2">Virtual & Augmented Reality Development</p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We cre ate stunning websites that connect, engage, and convert.</p>
+            </div>   
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 col-sm-6 mt-2 mb-2 my-col animate__animated animate__bounceInUp cyber">
+          <div class="card services-box mt-2 mb-2">
+            <div class="card-body services-box-text">
+              <div class="mt-2"><i class="fa-2x fa-solid fa-hands-bound" style="color: #ffffff;"></i></div>
+              <p class="services-box-title mt-2"> Cybersecurity Services </p>
+              <p class="services-box-description">We're your go-to experts for web solutions that work. We create stunning websites that connect, engage, and convert.</p>
+            </div>   
+          </div>
+        </div>
+      </div>
+      <div class="page-details mt-3 mb-3 pb-4 pt-4 animate__animated animate__bounceInUp">
+        <a class="details" href="services.html">View Details → </a>
       </div>
     </div>
-    <script src="app.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <div class="container-xxl w-100">
+      <div class="about-container animate__animated animate__bounceInUp">
+        <p class="field-paragraph mt-4">OUR PHILOSOPHY</p>
+        <p class="sub-heading">A key component of digital information technology is rapid innovation.</p>
+        <p class="description text-center mb-5">MSZ Software House is aware of the value of frequent self-reinvention in staying current. We achieve this by consistently luring the most brilliant brains in cutting-edge digital paradigms and platforms. MSZ Software House differentiates itself by providing its client organisations with a single point of contact to handle all of their enterprise technology demands by keeping a roster of qualified technology specialists across all business functions.</p>
+      </div>
+    </div>
+    <div class="job-bg container-xxl">
+      <div class="job-container pb-5 animate__animated animate__bounceInUp">
+        <div class="services-heading pt-5 pb-5">
+          <p class="job-heading mt-5">Join Us! </p>
+          <div class="black-underline"> </div>
+          <p class="jobs-line mt-3">Challenge your limits.</p>
+          <p class="job-sub-heading mt-3">Among employers in the sector, MSZ is one of the most coveted. Join the MSZ family by submitting an application today.</p>
+          <a class="view-jobs-btn mb-5" href="carrer.html"> View Jobs → </a>
+        </div>
+      </div>
+    </div>
+    <div class="contact container-xxl">
+      <div class="services-heading mb-5 animate__animated animate__bounceInUp">
+        <p class="contact-heading pt-5"> Contact! </p>
+        <div class="underline white-line"> </div>
+      </div>
+      <div class="contact-info mt-5 pb-4">
+        <div class="information col-12 col-lg-3 col-md-6 col-sm-12">
+          <p class="contact-title">Discuss with our Experts & Choose the 
+            <span class="contact-bold-title">BEST SOLUTION FOR YOUR BUSINESS</span>
+          </p>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12 methods">
+          <div><img class="contact-img" width="50" src="Website-Images-Material/mobile-icon.png" alt="mobile-icon" /></div>
+          <div><p class="contact-paragraph">+9232-01312704</p></div>          
+        </div>
+        <div class="vertical-line"></div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12 methods">
+          <div><img class="contact-img" width="58" src="Website-Images-Material/live-chat.png" alt="mobile-icon" /></div>
+          <div><p class="contact-paragraph"> Live Chat </p></div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12 methods">
+          <div><img class="contact-img" width="70" src="Website-Images-Material/download-removebg-preview.png" alt="mobile-icon" /></div>
+          <div><p class="contact-paragraph"> Email Us </p></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-us container-xxl"> 
+      <div class="pt-5 animate__animated animate__bounceInUp">
+        <p class="contact-us-title">Ready to get started ?</p>
+        <div class="btn-div pt-3 pb-5"><a class="contact-us-btn" href="contact.html"> Contact Us </a></div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer id="footer" class="container-xxl">
+				<div class="inner">
+					<div class="row justify-content-around align-items-start">
+						<section class="col-12 col-lg-3 col-md-6 col-sm-12  section-about">
+							<h4>MSZ <span class="span-color"> Software House</span> </h4>
+              <p class="footer-heading">Elevating Digital Experiences through Custom Solutions and Exceptional Support.</p>
+							<p class="footer-description"> 
+                MSZ Software House the finest technology, your destination for web development, design, content writing, video editing, & 
+                subscription assistance. Committed to customer satisfaction, privacy, & affordable quality, we're on a mission to lead 
+                Pakistan's software industry.
+              </p>
+						</section>
+						<section class="col-12 col-lg-4 col-md-6 col-sm-12 section-services">
+							<h4 class="span-color"> What We Do! </h4>
+							<ul class="services-footer-list">
+								<li><a href="#">Web & App Development.</a></li>
+								<li><a href="#">Social Media Management.</a></li>
+								<li><a href="#">Content Writing.</a></li>
+								<li><a href="#">Grapic Design.</a></li>
+								<li><a href="#">Video Editing.</a></li>
+								<li><a href="#">SEO Services.</a></li>
+                <a class="view-all" href="services.html">Veiw more →</a>
+							</ul>
+						</section>
+						<section class="col-12 col-lg-3 col-md-6 col-sm-12 section-contact">
+              <h4 class="span-color"> Contact Us on:</span></h4>
+							<ul class="contact-list">
+								<li> <a href="contact.html"> <i class="fa-solid fa-phone" style="color: #ffffff;"></i> +9232-01312704 </a> </li>
+								<li> <a href="contact.html"> <i class="fa-solid fa-envelope" style="color: #ffffff;"></i> hr@mszsoftwarehouse.com </a> </li>
+								<li> <a href="contact.html"> <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> Linkedin </a> </li>
+								<li> <a href="contact.html"> <i class="fa-brands fa-facebook" style="color: #ffffff;"></i> Facebook </a> </li>
+								<li> <a href="contact.html"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i> Instagram </a> </li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</footer>
+      <div id="copyright " class="copyright">
+			  <div class="copyright-heading">© 2023 MSZ (Software House) TERMS AND CONDITIONS | PRIVACY POLICY</div>
+		  </div>
+    </div>  
+    <!-- <script src="aap.js"></script> -->
+    <script src="bootstrap.js"></script>
 </body>
 </html>
