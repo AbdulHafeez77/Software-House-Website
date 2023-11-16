@@ -335,6 +335,10 @@ body{
     border-radius: 10px 40% 0px 10px !important;
 }
 
+.reverse-images img{
+    border-radius: 40% 10px 10px 0px !important;
+}
+
 
 .services-list{
     width: 57%;
